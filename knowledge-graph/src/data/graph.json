@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    { "id": "Introduccion", "description": "Esta es la introducción al tema." },
+    {
+      "id": "RedesNeurales",
+      "description": "Información sobre redes neuronales."
+    },
+    {
+      "id": "MachineLearning",
+      "description": "Información sobre machine learning."
+    }
+  ],
+  "links": [
+    { "source": "Introduccion", "target": "MachineLearning" },
+    { "source": "MachineLearning", "target": "RedesNeurales" }
+  ]
+}
+
